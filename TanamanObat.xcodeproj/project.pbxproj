@@ -64,12 +64,7 @@
 				04E23ABA245B23EE00B531BA /* Base */,
 				04E23AB9245B23E000B531BA /* Controller */,
 				04E23AB8245B23D900B531BA /* View */,
-				04E23AA3245B23AE00B531BA /* AppDelegate.swift */,
-				04E23AA5245B23AE00B531BA /* SceneDelegate.swift */,
-				04E23AA7245B23AE00B531BA /* ViewController.swift */,
-				04E23AA9245B23AE00B531BA /* Main.storyboard */,
 				04E23AAC245B23B500B531BA /* Assets.xcassets */,
-				04E23AAE245B23B500B531BA /* LaunchScreen.storyboard */,
 				04E23AB1245B23B500B531BA /* Info.plist */,
 			);
 			path = TanamanObat;
@@ -78,6 +73,8 @@
 		04E23AB8245B23D900B531BA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04E23AAE245B23B500B531BA /* LaunchScreen.storyboard */,
+				04E23AA9245B23AE00B531BA /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -85,6 +82,7 @@
 		04E23AB9245B23E000B531BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04E23AA7245B23AE00B531BA /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -92,6 +90,8 @@
 		04E23ABA245B23EE00B531BA /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				04E23AA5245B23AE00B531BA /* SceneDelegate.swift */,
+				04E23AA3245B23AE00B531BA /* AppDelegate.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
