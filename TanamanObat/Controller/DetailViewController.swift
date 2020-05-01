@@ -19,6 +19,9 @@ class DetailViewController: UIViewController {
     var plant: Plant?
     override func viewDidLoad() {
         super.viewDidLoad()
+        let resultTitle = plant
+        self.navigationItem.title = resultTitle?.name
+      
         
         if let result = plant {
             labelName.text = result.name

@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var plantTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         overrideUserInterfaceStyle = .dark
         
         plantTableView.dataSource = self
@@ -46,6 +46,8 @@ extension ViewController: UITableViewDataSource{
         cell.labelName.text = tanaman.name
         cell.labelDescription.text = tanaman.description
         cell.imagePlant.image = tanaman.image
+        cell.imagePlant.layer.cornerRadius = cell.imagePlant.frame.height / 2
+        cell.imagePlant.clipsToBounds = true
         return cell
     }
     
