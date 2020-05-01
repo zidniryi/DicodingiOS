@@ -14,7 +14,7 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var imageProfile: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        orangeView.layer.cornerRadius = 5
+        orangeView.layer.cornerRadius = 20
         orangeView.layer.masksToBounds = true
         
         imageProfile.layer.cornerRadius = imageProfile.frame.height / 2
