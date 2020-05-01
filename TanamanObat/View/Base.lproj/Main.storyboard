@@ -38,6 +38,85 @@
             </objects>
             <point key="canvasLocation" x="1050.7246376811595" y="79.6875"/>
         </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="wF4-lf-nM1">
+            <objects>
+                <viewController id="s2V-tc-aLP" customClass="ProfileViewController" customModule="TanamanObat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T1f-q2-z1j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zidni" translatesAutoresizingMaskIntoConstraints="NO" id="w1M-5F-5vu">
+                                <rect key="frame" x="82" y="100" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="B1v-2t-xrp"/>
+                                    <constraint firstAttribute="height" constant="250" id="OHM-r4-X9Q"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zidni Ridwan Nulmuarif" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGT-ym-X9c">
+                                <rect key="frame" x="20" y="384" width="359" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="359" id="339-Ug-Bk5"/>
+                                    <constraint firstAttribute="height" constant="37" id="9BK-le-L07"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="zidniryi123@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6Z-nc-fF6">
+                                <rect key="frame" x="20" y="438" width="359" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="fjj-Cn-tgn"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="359" id="xVq-CQ-UbZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NID-vD-HPc">
+                                <rect key="frame" x="20" y="532" width="374" height="134"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There's A Way To Do Better. Find It.." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="StA-mS-Gll">
+                                        <rect key="frame" x="11" y="53.5" width="352" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94509803921568625" green="0.49803921568627452" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="StA-mS-Gll" firstAttribute="centerY" secondItem="NID-vD-HPc" secondAttribute="centerY" id="3Ka-TO-pn8"/>
+                                    <constraint firstItem="StA-mS-Gll" firstAttribute="centerX" secondItem="NID-vD-HPc" secondAttribute="centerX" id="vFg-HR-Mh4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="w1M-5F-5vu" firstAttribute="top" secondItem="XPf-Gm-K5F" secondAttribute="top" constant="56" id="3qR-qP-zKk"/>
+                            <constraint firstItem="NID-vD-HPc" firstAttribute="top" secondItem="x6Z-nc-fF6" secondAttribute="bottom" constant="67" id="6A5-aY-C0g"/>
+                            <constraint firstItem="XPf-Gm-K5F" firstAttribute="trailing" secondItem="w1M-5F-5vu" secondAttribute="trailing" constant="82" id="M9P-CJ-hgD"/>
+                            <constraint firstItem="x6Z-nc-fF6" firstAttribute="leading" secondItem="XPf-Gm-K5F" secondAttribute="leading" constant="20" id="QlR-kC-kL7"/>
+                            <constraint firstItem="NID-vD-HPc" firstAttribute="leading" secondItem="XPf-Gm-K5F" secondAttribute="leading" constant="20" id="RLc-z1-IKo"/>
+                            <constraint firstItem="x6Z-nc-fF6" firstAttribute="top" secondItem="zGT-ym-X9c" secondAttribute="bottom" constant="17" id="Snw-cn-DgC"/>
+                            <constraint firstItem="XPf-Gm-K5F" firstAttribute="bottom" secondItem="NID-vD-HPc" secondAttribute="bottom" constant="196" id="T5T-Tw-iln"/>
+                            <constraint firstItem="XPf-Gm-K5F" firstAttribute="trailing" secondItem="zGT-ym-X9c" secondAttribute="trailing" constant="35" id="Wcu-dg-kNZ"/>
+                            <constraint firstItem="XPf-Gm-K5F" firstAttribute="trailing" secondItem="x6Z-nc-fF6" secondAttribute="trailing" constant="35" id="YRC-F9-2aU"/>
+                            <constraint firstItem="XPf-Gm-K5F" firstAttribute="trailing" secondItem="NID-vD-HPc" secondAttribute="trailing" constant="20" id="aav-24-F94"/>
+                            <constraint firstItem="w1M-5F-5vu" firstAttribute="leading" secondItem="XPf-Gm-K5F" secondAttribute="leading" constant="82" id="ge1-Wi-j6s"/>
+                            <constraint firstItem="zGT-ym-X9c" firstAttribute="top" secondItem="w1M-5F-5vu" secondAttribute="bottom" constant="34" id="hV0-DT-QF3"/>
+                            <constraint firstItem="zGT-ym-X9c" firstAttribute="leading" secondItem="XPf-Gm-K5F" secondAttribute="leading" constant="20" id="xVt-iD-U2v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XPf-Gm-K5F"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageProfile" destination="w1M-5F-5vu" id="x6V-j3-SVk"/>
+                        <outlet property="orangeView" destination="NID-vD-HPc" id="gcB-iy-BYF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xz4-hV-2hJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-766.66666666666674" y="24.776785714285712"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="gE2-GG-LS8">
             <objects>
@@ -57,4 +136,7 @@
             <point key="canvasLocation" x="140.57971014492756" y="79.6875"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="zidni" width="460" height="460"/>
+    </resources>
 </document>
