@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         plantTableView.register(UINib(nibName: "PlantTableViewCell", bundle: nil), forCellReuseIdentifier: "PlantCell")
         
         
-        self.navigationItem.title = "TamBat App"
+        self.navigationItem.title = "TamBat"
         
         plantTableView.dataSource = self
         
