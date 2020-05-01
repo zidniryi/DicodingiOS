@@ -9,18 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var plantTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
 
-               plantTableView.dataSource = self
-               
-               plantTableView.register(UINib(nibName: "PlantTableViewCell", bundle: nil), forCellReuseIdentifier: "PlantCell")
+        overrideUserInterfaceStyle = .dark
+        
+        plantTableView.dataSource = self
+        
+        plantTableView.register(UINib(nibName: "PlantTableViewCell", bundle: nil), forCellReuseIdentifier: "PlantCell")
+        
+        
+        self.navigationItem.title = "TamBat App"
+        
+        plantTableView.dataSource = self
+        
+        plantTableView.delegate = self
+        
+        plantTableView.register(UINib(nibName: "PlantTableViewCell", bundle: nil), forCellReuseIdentifier: "PlantCell")
     }
-
-
+    
+    
 }
 
 extension ViewController: UITableViewDataSource{
@@ -29,9 +39,9 @@ extension ViewController: UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "PlantCell", for: indexPath) as! PlantTableViewCell
-           
-      
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PlantCell", for: indexPath) as! PlantTableViewCell
+        
+        
         let tanaman = plant[indexPath.row]
         cell.labelName.text = tanaman.name
         cell.labelDescription.text = tanaman.description

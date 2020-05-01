@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="TanamanObat" customModuleProvider="target">
+            <connections>
+                <outlet property="imagePlant" destination="mnz-fz-4rV" id="eLM-fR-sUX"/>
+                <outlet property="labelBenefit" destination="O49-Sz-ZdT" id="dgj-Kw-Z14"/>
+                <outlet property="labelDescription" destination="5Pb-yZ-WNs" id="ojv-Su-abv"/>
+                <outlet property="labelDivision" destination="EaS-1x-r5r" id="gnl-ii-BZE"/>
+                <outlet property="labelKindom" destination="5XM-Eq-Hx9" id="0jj-b8-rHV"/>
+                <outlet property="labelName" destination="oc0-Zp-B6V" id="UMX-Oj-cjy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bawang" translatesAutoresizingMaskIntoConstraints="NO" id="mnz-fz-4rV">
+                    <rect key="frame" x="0.0" y="44" width="414" height="235"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="235" id="5Be-eC-pbr"/>
+                        <constraint firstAttribute="width" constant="414" id="gn6-Cw-ZKa"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oc0-Zp-B6V">
+                    <rect key="frame" x="52" y="300" width="306" height="26.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EaS-1x-r5r">
+                    <rect key="frame" x="238" y="341" width="165" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="GVW-XF-s9N"/>
+                        <constraint firstAttribute="width" constant="165" id="WLu-9F-Xvp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XM-Eq-Hx9">
+                    <rect key="frame" x="20" y="342" width="165" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deskripsi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ejc-bC-oyZ">
+                    <rect key="frame" x="20" y="383" width="145" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manfaat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xg-xx-r7Q">
+                    <rect key="frame" x="20" y="665" width="145" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Pb-yZ-WNs">
+                    <rect key="frame" x="20" y="412" width="374" height="228"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="374" id="FRJ-u8-0Zg"/>
+                        <constraint firstAttribute="height" constant="228" id="dU8-Ef-opb"/>
+                    </constraints>
+                    <string key="text">Bawang merah (Allium cepa L. var. aggregatum) adalah salah satu bumbu masak utama dunia yang berasal dari Iran, Pakistan, dan pegunungan-pegunungan di sebelah utaranya, tetapi kemudian menyebar ke berbagai penjuru dunia, baik sub-tropis maupun tropis. Wujudnya berupa umbi yang dapat dimakan mentah, untuk bumbu masak, acar, obat tradisional, kulit umbinya dapat dijadikan zat pewarna dan daunnya dapat pula digunakan untuk campuran sayur</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Memperbaiki sistem pencernaan, Mengatur gula darah, Kepadatan tulang, Menurunkan risiko kanker" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O49-Sz-ZdT">
+                    <rect key="frame" x="20" y="694" width="414" height="118"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="mnz-fz-4rV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="7Wc-Ad-5xP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="O49-Sz-ZdT" secondAttribute="bottom" constant="50" id="9QG-R4-h3Q"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5Pb-yZ-WNs" secondAttribute="trailing" constant="20" id="EWN-ZM-LRa"/>
+                <constraint firstItem="O49-Sz-ZdT" firstAttribute="top" secondItem="0xg-xx-r7Q" secondAttribute="bottom" constant="8" id="Erx-ZV-GYd"/>
+                <constraint firstItem="O49-Sz-ZdT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Gip-4A-kGY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="EaS-1x-r5r" secondAttribute="trailing" constant="11" id="IWs-2o-54n"/>
+                <constraint firstItem="5XM-Eq-Hx9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="J9P-YT-la0"/>
+                <constraint firstItem="mnz-fz-4rV" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Nty-gh-ZcU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0xg-xx-r7Q" secondAttribute="trailing" constant="249" id="ZBA-il-SrX"/>
+                <constraint firstItem="5Pb-yZ-WNs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ZPv-9A-mTS"/>
+                <constraint firstItem="O49-Sz-ZdT" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="20" id="ZtG-gq-jI4"/>
+                <constraint firstItem="mnz-fz-4rV" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="baw-ZK-IoC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="oc0-Zp-B6V" secondAttribute="trailing" constant="56" id="crI-Fm-Q5A"/>
+                <constraint firstItem="5XM-Eq-Hx9" firstAttribute="top" secondItem="oc0-Zp-B6V" secondAttribute="bottom" constant="15.5" id="fH7-ON-POr"/>
+                <constraint firstItem="EaS-1x-r5r" firstAttribute="leading" secondItem="5XM-Eq-Hx9" secondAttribute="trailing" constant="53" id="g0R-ev-ejJ"/>
+                <constraint firstItem="0xg-xx-r7Q" firstAttribute="top" secondItem="5Pb-yZ-WNs" secondAttribute="bottom" constant="25" id="h1v-gZ-iXD"/>
+                <constraint firstItem="oc0-Zp-B6V" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="52" id="hsl-hL-hdS"/>
+                <constraint firstItem="oc0-Zp-B6V" firstAttribute="top" secondItem="mnz-fz-4rV" secondAttribute="bottom" constant="21" id="lcq-jh-dzB"/>
+                <constraint firstItem="0xg-xx-r7Q" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="lqC-q5-OaE"/>
+                <constraint firstItem="Ejc-bC-oyZ" firstAttribute="top" secondItem="5XM-Eq-Hx9" secondAttribute="bottom" constant="20" id="mPK-ng-4Dd"/>
+                <constraint firstItem="Ejc-bC-oyZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="nOO-jS-vDm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ejc-bC-oyZ" secondAttribute="trailing" constant="249" id="uHr-Nr-rEs"/>
+                <constraint firstItem="5Pb-yZ-WNs" firstAttribute="top" secondItem="Ejc-bC-oyZ" secondAttribute="bottom" constant="8" id="ubB-Ub-LbP"/>
+                <constraint firstItem="EaS-1x-r5r" firstAttribute="top" secondItem="oc0-Zp-B6V" secondAttribute="bottom" constant="14.5" id="uon-Pc-ayr"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="140.57971014492756" y="120.53571428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bawang" width="250" height="188"/>
+    </resources>
+</document>
