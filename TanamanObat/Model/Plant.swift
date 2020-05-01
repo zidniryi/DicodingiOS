@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Tanaman {
+struct Plant {
     let image: UIImage
     let name: String
     let kingdom: String

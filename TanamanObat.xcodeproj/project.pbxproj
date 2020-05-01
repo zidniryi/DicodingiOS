@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		04063542245B29AF001766F8 /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04063540245B29AF001766F8 /* PlantTableViewCell.swift */; };
 		04063543245B29AF001766F8 /* PlantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04063541245B29AF001766F8 /* PlantTableViewCell.xib */; };
+		04D3E462245C5A3500EF9D7F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3E460245C5A3500EF9D7F /* DetailViewController.swift */; };
+		04D3E463245C5A3500EF9D7F /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D3E461245C5A3500EF9D7F /* DetailViewController.xib */; };
 		04E23AA4245B23AE00B531BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23AA3245B23AE00B531BA /* AppDelegate.swift */; };
 		04E23AA6245B23AE00B531BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23AA5245B23AE00B531BA /* SceneDelegate.swift */; };
 		04E23AA8245B23AE00B531BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23AA7245B23AE00B531BA /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		04063540245B29AF001766F8 /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlantTableViewCell.swift; path = TanamanObat/Controller/PlantTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		04063541245B29AF001766F8 /* PlantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PlantTableViewCell.xib; path = TanamanObat/Controller/PlantTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		04D3E460245C5A3500EF9D7F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		04D3E461245C5A3500EF9D7F /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		04E23AA0245B23AE00B531BA /* TanamanObat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanamanObat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E23AA3245B23AE00B531BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E23AA5245B23AE00B531BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 				04E23AAE245B23B500B531BA /* LaunchScreen.storyboard */,
 				04E23AA9245B23AE00B531BA /* Main.storyboard */,
 				04063541245B29AF001766F8 /* PlantTableViewCell.xib */,
+				04D3E461245C5A3500EF9D7F /* DetailViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 		04E23AB9245B23E000B531BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04D3E460245C5A3500EF9D7F /* DetailViewController.swift */,
 				04E23AA7245B23AE00B531BA /* ViewController.swift */,
 				04063540245B29AF001766F8 /* PlantTableViewCell.swift */,
 			);
@@ -171,6 +177,7 @@
 			files = (
 				04E23AB0245B23B500B531BA /* LaunchScreen.storyboard in Resources */,
 				04063543245B29AF001766F8 /* PlantTableViewCell.xib in Resources */,
+				04D3E463245C5A3500EF9D7F /* DetailViewController.xib in Resources */,
 				04E23AAD245B23B500B531BA /* Assets.xcassets in Resources */,
 				04E23AAB245B23AE00B531BA /* Main.storyboard in Resources */,
 			);
@@ -189,6 +196,7 @@
 				04E23AC7245B263D00B531BA /* Plant.swift in Sources */,
 				04E23AA4245B23AE00B531BA /* AppDelegate.swift in Sources */,
 				04E23AA6245B23AE00B531BA /* SceneDelegate.swift in Sources */,
+				04D3E462245C5A3500EF9D7F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
