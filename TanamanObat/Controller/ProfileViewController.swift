@@ -14,8 +14,9 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var imageProfile: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        orangeView.layer.cornerRadius = 20
+        orangeView.layer.cornerRadius = 50
         orangeView.layer.masksToBounds = true
+        self.navigationItem.title = "Profile"
         
         imageProfile.layer.cornerRadius = imageProfile.frame.height / 2
         imageProfile.clipsToBounds = true

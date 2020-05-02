@@ -28,7 +28,7 @@
 		049CF8D2245C5FA2003DEBBB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		049CF8D3245C5FA2003DEBBB /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		04B5B04F245CC4C300C4D7D3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		04E23AA0245B23AE00B531BA /* TanamanObat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanamanObat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E23AA0245B23AE00B531BA /* TamBat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamBat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E23AA3245B23AE00B531BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E23AA5245B23AE00B531BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04E23AA7245B23AE00B531BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		04E23AA1245B23AE00B531BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04E23AA0245B23AE00B531BA /* TanamanObat.app */,
+				04E23AA0245B23AE00B531BA /* TamBat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			);
 			name = TanamanObat;
 			productName = TanamanObat;
-			productReference = 04E23AA0245B23AE00B531BA /* TanamanObat.app */;
+			productReference = 04E23AA0245B23AE00B531BA /* TamBat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -351,7 +351,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zidniryi.TanamanObat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TamBat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -368,7 +368,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zidniryi.TanamanObat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TamBat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
