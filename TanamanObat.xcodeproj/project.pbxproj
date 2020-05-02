@@ -11,6 +11,7 @@
 		04063543245B29AF001766F8 /* PlantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04063541245B29AF001766F8 /* PlantTableViewCell.xib */; };
 		049CF8D4245C5FA2003DEBBB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CF8D2245C5FA2003DEBBB /* DetailViewController.swift */; };
 		049CF8D5245C5FA2003DEBBB /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049CF8D3245C5FA2003DEBBB /* DetailViewController.xib */; };
+		04B1DCAD245D26750066C5E3 /* ScreenShoot in Resources */ = {isa = PBXBuildFile; fileRef = 04B1DCAC245D26740066C5E3 /* ScreenShoot */; };
 		04B5B050245CC4C300C4D7D3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5B04F245CC4C300C4D7D3 /* ProfileViewController.swift */; };
 		04E23AA4245B23AE00B531BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23AA3245B23AE00B531BA /* AppDelegate.swift */; };
 		04E23AA6245B23AE00B531BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23AA5245B23AE00B531BA /* SceneDelegate.swift */; };
@@ -27,6 +28,7 @@
 		04063541245B29AF001766F8 /* PlantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PlantTableViewCell.xib; path = TanamanObat/Controller/PlantTableViewCell.xib; sourceTree = SOURCE_ROOT; };
 		049CF8D2245C5FA2003DEBBB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		049CF8D3245C5FA2003DEBBB /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		04B1DCAC245D26740066C5E3 /* ScreenShoot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ScreenShoot; sourceTree = "<group>"; };
 		04B5B04F245CC4C300C4D7D3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		04E23AA0245B23AE00B531BA /* TamBat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamBat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E23AA3245B23AE00B531BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		04E23AA2245B23AE00B531BA /* TanamanObat */ = {
 			isa = PBXGroup;
 			children = (
+				04B1DCAC245D26740066C5E3 /* ScreenShoot */,
 				04E23AC5245B263000B531BA /* Model */,
 				04E23ABA245B23EE00B531BA /* Base */,
 				04E23AB9245B23E000B531BA /* Controller */,
@@ -182,6 +185,7 @@
 				04063543245B29AF001766F8 /* PlantTableViewCell.xib in Resources */,
 				049CF8D5245C5FA2003DEBBB /* DetailViewController.xib in Resources */,
 				04E23AAD245B23B500B531BA /* Assets.xcassets in Resources */,
+				04B1DCAD245D26750066C5E3 /* ScreenShoot in Resources */,
 				04E23AAB245B23AE00B531BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
